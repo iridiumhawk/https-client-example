@@ -14,7 +14,7 @@ public class Main {
         URL url;
         HttpsURLConnection connection;
         try {
-            url = new URL(System.getProperty("example_url", "https://www.google.com/"));
+            url = new URL(System.getProperty("example_url", "https://dadata.ru"));
             connection = (HttpsURLConnection)url.openConnection();
             connection.connect();
 
